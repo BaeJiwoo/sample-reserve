@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+
+# Local reservation data and SQLite files
+data/
+*.sqlite3*
+*.db*
+
+# Local configuration (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Test output and logs
+test-results/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
